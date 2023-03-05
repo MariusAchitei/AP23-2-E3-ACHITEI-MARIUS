@@ -26,22 +26,29 @@ public class Homework {
         //in cazul acestui tip de matrici liniile si coloanele corespondente lunt la fel
         //as fi putut sa mut aceasta iteratie in for ul de generare
 
-        if (n < 10_000) {
-            String linie = "";
+        if (n < 30_000) {
+//            String linie = "";
+//
+//            for (int i = 0; i < n; i++) {
+//                for (int j = 0; j < n; j++)
+//                    linie += matrice[i][j];
+//                System.out.println("Linia " + i + ": " + linie);
+//                linie = "";
+//            }
+//
+//            String coloana = "";
+//            for (int j = 0; j < n; j++) {
+//                for (int i = 0; i < n; i++)
+//                    coloana += matrice[i][j];
+//
+//                System.out.println("Coloana " + j + ": " + coloana);
+//                coloana = "";
+//            }
+
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++)
-                    linie += matrice[i][j];
-                System.out.println("Linia " + i + ": " + linie);
-                linie = "";
-            }
-
-            String coloana = "";
-            for (int j = 0; j < n; j++) {
-                for (int i = 0; i < n; i++)
-                    coloana += matrice[i][j];
-
-                System.out.println("Coloana " + j + ": " + coloana);
-                coloana = "";
+                    System.out.print(matrice[i][j]+ " ");
+                System.out.print("\n");
             }
         } else {
             long end = System.nanoTime();
