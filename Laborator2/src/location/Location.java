@@ -2,21 +2,21 @@ package location;
 
 import java.security.PublicKey;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Objects;
 
 public abstract class Location {
     private String name;
     private double x;
     private double y;
 
-    private List<Location> connections;
+    private HashMap<Location, Integer> connections;
 
     public Location(String name, double x, double y) {
         this.name = name;
         this.x = x;
         this.y = y;
-        connections = new ArrayList<>();
+        connections = new HashMap<Location, Integer>();
     }
 
     public Location() {
@@ -24,7 +24,7 @@ public abstract class Location {
 
     @Override
     public String toString() {
-        return "Location {" +
+        return getClass() + " {" +
                 "name='" + name + '\'' +
                 ", x=" + x +
                 ", y=" + y +
@@ -46,11 +46,11 @@ public abstract class Location {
         return name.equals(location.name);
     }
 
-    public void addConnection(Location location) {
-        connections.add(location);
+    public void addConnection(Location location, int length) {
+        connections.put(location, length);
     }
 
-    public List<Location> getConnections() {
+    public HashMap<Location, Integer> getConnections() {
         return connections;
     }
 

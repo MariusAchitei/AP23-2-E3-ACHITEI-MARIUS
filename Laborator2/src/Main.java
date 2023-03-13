@@ -19,6 +19,9 @@ public class Main {
         Location omvBotosani = new GasStation("OMV Botosani", 31, 46, 4, 7.77);
         Location aeroportIasi = new AirPort("Iasi", 31, 45, 5);
 
+        System.out.println(botosani);
+        System.out.println(aeroportIasi);
+
         /**
          *  Adaug 2 locatii cu acelasi nume pentru a genera o exceptie
          */
@@ -38,6 +41,9 @@ public class Main {
         r4.setLocations(suceava, satu);
 
         pb.addRoads(r1, r2, r3, r4);
+
+        System.out.println(r1);
+        System.out.println(r2);
 
 //        pb.printLocations();
 //        pb.printRoads();
@@ -59,6 +65,10 @@ public class Main {
             System.out.println("EXISTA un drum intre cele doua locatii\n");
         else
             System.out.println("NU AM GASIT niciun drum intre cele doua locatii\n");
+
+        Algorithm alg = new Algorithm(pb);
+        alg.solve(iasi, botosani);
+
     }
 }
 

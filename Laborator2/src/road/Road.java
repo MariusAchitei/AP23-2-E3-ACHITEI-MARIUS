@@ -18,7 +18,7 @@ public abstract class Road {
 
     @Override
     public String toString() {
-        return "Road{" +
+        return getClass() + " {" +
                 "name=" + name +
                 ", length=" + length + " km" +
                 '}';
@@ -48,8 +48,8 @@ public abstract class Road {
         if (l1 == null || l2 == null) return;
         locations[0] = l1;
         locations[1] = l2;
-        l1.addConnection(l2);
-        l2.addConnection(l1);
+        l1.addConnection(l2, this.length);
+        l2.addConnection(l1, this.length);
     }
 
     public Location getLocation1() {
