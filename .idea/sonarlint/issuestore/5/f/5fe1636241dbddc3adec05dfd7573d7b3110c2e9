@@ -1,0 +1,21 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ùé½
+ˆ
+java:S13195"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Êı»åıÿÿÿÿ
+W
+java:S4973$"<Strings and Boxed types should be compared using "equals()".(Éî©íûÿÿÿÿ
+f
+java:S1206*"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã
+O
+java:S5993"9Change the visibility of this constructor to "protected".(ğşĞœ
+O
+java:S5993"9Change the visibility of this constructor to "protected".(ÛìÏœ
+F
+java:S1905%"+Remove this unnecessary cast to "Location".(ÕŞ»şÿÿÿÿ
+O
+java:S1128"4Remove this unused import 'java.security.PublicKey'.(ºâú½üÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

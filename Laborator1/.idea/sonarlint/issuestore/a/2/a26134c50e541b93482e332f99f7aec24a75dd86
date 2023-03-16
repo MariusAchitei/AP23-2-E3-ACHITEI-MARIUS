@@ -1,0 +1,15 @@
+
+0
+java:S1220""Move this file to a named package.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(öë‚Òüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¼Á©ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†™ñ‹
+X	java:S125"<This block of commented-out lines of code should be removed.(œ§™©8‘ó¶ê0
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(¾ÒÝ¡ùÿÿÿÿ8Ô†¶ê0
+T	java:S1063"9Replace this use of System.out or System.err by a logger.(°•Þ8ÖŸ‡¶ê0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(Õ§°˜úÿÿÿÿ8ÚÓ¶ê0
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(Ûƒ—áùÿÿÿÿ8ÚÓ¶ê0
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8÷ªŠ¶ê0
+W
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™þ8øªŠ¶ê0

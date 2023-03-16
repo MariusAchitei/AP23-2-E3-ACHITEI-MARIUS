@@ -1,0 +1,10 @@
+
+[
+java:S2259+"?A "NullPointerException" could be thrown; "l" is nullable here.(ù“^8ş—¤”ì0
+u
+java:S1450"SRemove the "cost" field and declare it as a local variable in the relevant methods.(“à­ôøÿÿÿÿ8ˆ£”ì0
+J
+java:S1172"-Remove this unused method parameter "finish".(¡È÷ò8µò¡”ì0
+I
+java:S1068
+",Remove this unused "distance" private field.(¨ˆÏÏ8¹ò¡”ì0
