@@ -1,14 +1,0 @@
-
-W
-java:S4973%"<Strings and Boxed types should be compared using "equals()".(…Ü€ªşÿÿÿÿ
-f
-java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã
-O
-java:S5993
-"9Change the visibility of this constructor to "protected".(‘¥È‰
-O
-java:S5993"9Change the visibility of this constructor to "protected".(±ÄÑ
-@
-java:S1197"*Move the array designators [] to the type.(¢Ààô
-=
-java:S1905&"'Remove this unnecessary cast to "Road".(”ü½›

@@ -9,8 +9,8 @@ public class Main {
         nodes.add(new Company("Apple"));
         nodes.add(new Person("Andrei"));
         nodes.add(new Person("Ion"));
-        nodes.add(new Person("Maria"));
         nodes.add(new Person("Vasile"));
+        nodes.add(new Person("Maria"));
 
         for (Node node : nodes) {
             System.out.println(node.getName());
