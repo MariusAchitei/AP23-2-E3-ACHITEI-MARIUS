@@ -4,10 +4,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class MaximumCardinality implements Problem {
+public class MaximumCardinality {
 
     private Map<Student, List<Project>> prefMap = new HashMap<>();
-    private List<Student> students = new ArrayList<>(
+    public List<Student> students = new ArrayList<>(
             IntStream.rangeClosed(0, 10)
                     .mapToObj(i -> new Student("S" + i))
                     .toList()
@@ -90,18 +90,6 @@ public class MaximumCardinality implements Problem {
                 students) {
             System.out.println(student.getName() + " - " + matching.get(student).getName());
         }
-
-//        for (int i = 0; i < check.length; i++) {
-//            if (check[i] == 0) {
-//                for (Student s : students) {
-//                    Project helper = projects.get(i);
-//                    if (prefMap.get(s).contains(helper)) {
-//                        System.out.println(s.getName() + " - " + helper.getName());
-//                        break;
-//                    }
-//                }
-//            }
-//        }
     }
 
 
@@ -114,6 +102,6 @@ public class MaximumCardinality implements Problem {
     }
 
     public Project getRandomProject() {
-        return projects.get((int) Math.random() * (projects.size() - 1));
+        return projects.get((int) (Math.random() * (projects.size() - 1)));
     }
 }

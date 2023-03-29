@@ -10,7 +10,7 @@ public class Main {
         Faker faker = new Faker();
         Random rand = new Random();
 
-        Problem problem = new MaximumCardinality();
+        MaximumCardinality problem = new MaximumCardinality();
 
         problem.addStudents(
                 IntStream.rangeClosed(0, 10)
@@ -24,12 +24,15 @@ public class Main {
                         .toList()
         );
 
-
         for (Student student :
-                problem.getStudents()) {
-            for (int i = 0; i < (int) Math.random() * 4; i++)
-                problem.addPreferences(student, Arrays.asList(problem.getRandomProject()));
+                problem.students) {
+            LinkedList<Project> projectLinkedList=new LinkedList<>();
+            for (int i = 0; i < (int) Math.random() * 4 + 1; i++){
+                projectLinkedList.add(problem.getRandomProject());
+            }
+                problem.addPreferences(student, projectLinkedList);
         }
-
+        problem.printAboveAvgStudents();
+        problem.solve();
     }
 }

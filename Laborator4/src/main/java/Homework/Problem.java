@@ -16,5 +16,8 @@ public interface Problem {
     List<Student> getStudents();
 
     Project getRandomProject();
+
     void solve();
+
+    void printAboveAvgStudents();
 }
