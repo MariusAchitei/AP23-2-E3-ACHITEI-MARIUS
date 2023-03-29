@@ -1,10 +1,4 @@
 
-{
-java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬­ÚÉÿÿÿÿÿ8Ñš­ùð0
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬­ÚÉÿÿÿÿÿ8Òš­ùð0
-[
-java:S1854"9Remove this useless assignment to local variable "nodes".(¬­ÚÉÿÿÿÿÿ8åš­ùð0
 ]	java:S125"<This block of commented-out lines of code should be removed.(üªøüÿÿÿÿ8ðš­ùð0
-L
-java:S1481"*Remove this unused "nodes" local variable.(¬­ÚÉÿÿÿÿÿ8ñš­ùð0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8åŠ‡æò0
