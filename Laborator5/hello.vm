@@ -1,0 +1,12 @@
+<p>Catalog name: $Catalog.name ;</p>
+<p>Contains:</p>
+<ul>
+    #foreach($document in $Catalog.getDocuments())
+        <li>
+            <p>Document<p>
+            <p>Id: $document.id</p>
+            <p>Name: $document.name</p>
+            <p>Path: $document.path</p>
+         </li>
+    #end
+</ul>

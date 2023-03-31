@@ -1,0 +1,20 @@
+
+K
+java:S3740F"/Provide the parametrized type for this generic.(Ψλ®8ζΒος0
+v
+java:S1104
+"TMake students a static final constant or non-public and provide accessors if needed.(ÒΛ¤£ωÿÿÿÿ8θΒος0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(θδ³Κύÿÿÿÿ8ιΒος0
+`
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ΘΠƒλόÿÿÿÿ8Γος0
+]	java:S125"<This block of commented-out lines of code should be removed.(Οόν¶ϋÿÿÿÿ8ƒΓος0
+]	java:S125'"<This block of commented-out lines of code should be removed.(Κ¦› ώÿÿÿÿ8„Γος0
+X	java:S125/"<This block of commented-out lines of code should be removed.(ΐ‘ªΧ8…Γος0
+]
+java:S1612A"@Replace this lambda with method reference 'System.out::println'.(²–σ8Γος0
+G
+java:S2201X"*The return value of "toList" must be used.(υή²ό8Γος0
+F
+java:S2140i")Use "java.util.Random.nextInt()" instead.(ΎΐΪ8®ος0
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(ΣσΊ΄ϊÿÿÿÿ8Γος0
