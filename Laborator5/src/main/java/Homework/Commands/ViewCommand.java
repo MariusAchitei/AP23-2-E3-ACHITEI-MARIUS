@@ -1,13 +1,11 @@
-package Homework.Commands;
+package homework.commands;
 
-import Homework.Catalog;
-import Homework.Document;
-import Homework.InvalidCatalogException;
+import homework.Catalog;
+import homework.Document;
+import homework.InvalidCatalogException;
 
 import java.awt.*;
 import java.io.File;
-import java.io.IOException;
-import java.lang.Object;
 
 
 public class ViewCommand implements Command {

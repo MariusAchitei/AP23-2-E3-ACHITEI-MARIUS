@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

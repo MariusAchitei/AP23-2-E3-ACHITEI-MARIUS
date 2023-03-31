@@ -1,8 +1,7 @@
-package Homework;
+package homework;
 
-import Homework.Commands.Command;
+import homework.commands.Command;
 
-import java.io.IOException;
 import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;

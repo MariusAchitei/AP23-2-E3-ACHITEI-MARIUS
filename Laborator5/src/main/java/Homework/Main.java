@@ -1,8 +1,6 @@
-package Homework;
+package homework;
 
-import Homework.Commands.AddCommand;
-import Homework.Commands.ReportCommand;
-import Homework.Commands.ViewCommand;
+import homework.commands.ReportCommand;
 
 import java.io.IOException;
 import java.util.stream.IntStream;

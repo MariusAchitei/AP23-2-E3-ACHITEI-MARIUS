@@ -1,10 +1,7 @@
-package Homework.Commands;
+package homework.commands;
 
-import Homework.Catalog;
-import Homework.Document;
-import Homework.InvalidCatalogException;
-
-import java.io.IOException;
+import homework.Catalog;
+import homework.InvalidCatalogException;
 
 public interface Command {
     void execute(Catalog catalog) throws InvalidCatalogException;

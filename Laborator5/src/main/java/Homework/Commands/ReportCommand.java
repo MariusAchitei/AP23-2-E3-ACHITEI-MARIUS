@@ -1,7 +1,7 @@
-package Homework.Commands;
+package homework.commands;
 
-import Homework.Catalog;
-import Homework.InvalidCatalogException;
+import homework.Catalog;
+import homework.InvalidCatalogException;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
@@ -9,10 +9,7 @@ import org.apache.velocity.app.VelocityEngine;
 import java.awt.*;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.StringWriter;
-import java.util.HashMap;
-import java.util.Map;
 
 public class ReportCommand implements Command {
 
@@ -38,7 +35,7 @@ public class ReportCommand implements Command {
 //        desktop.print(new File("d:/CatalogReport.html"));
             desktop.open(new File("d:/CatalogReport.html"));
 
-            System.out.println(writer.toString());
+//            System.out.println(writer.toString());
         } catch (Exception e) {
             throw new InvalidCatalogException("Nu a mers comanda Veric\n", e);
         }

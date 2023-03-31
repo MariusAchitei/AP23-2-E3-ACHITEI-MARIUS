@@ -1,7 +1,4 @@
-package Homework;
-
-import java.io.IOException;
-import java.sql.SQLOutput;
+package homework;
 
 public class InvalidCatalogException extends Exception {
 

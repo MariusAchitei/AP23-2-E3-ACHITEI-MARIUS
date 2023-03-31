@@ -1,11 +1,10 @@
-package Homework.Commands;
+package homework.commands;
 
-import Homework.Catalog;
-import Homework.InvalidCatalogException;
+import homework.Catalog;
+import homework.InvalidCatalogException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
-import java.io.IOException;
 
 public class LoadCommand implements Command {
     private String path;

@@ -1,4 +1,4 @@
-package Compulsory;
+package compulsory;
 
 public class InvalidCatalogException extends Exception {
 

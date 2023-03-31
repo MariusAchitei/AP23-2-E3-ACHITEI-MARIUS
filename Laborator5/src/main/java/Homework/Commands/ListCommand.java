@@ -1,9 +1,7 @@
-package Homework.Commands;
+package homework.commands;
 
-import Homework.Catalog;
-import Homework.InvalidCatalogException;
-
-import java.io.IOException;
+import homework.Catalog;
+import homework.InvalidCatalogException;
 
 public class ListCommand implements Command {
 

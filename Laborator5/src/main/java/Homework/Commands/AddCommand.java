@@ -1,11 +1,8 @@
-package Homework.Commands;
+package homework.commands;
 
-import Homework.Catalog;
-import Homework.Document;
-import Homework.InvalidCatalogException;
-
-import java.io.IOException;
-import java.util.Calendar;
+import homework.Catalog;
+import homework.Document;
+import homework.InvalidCatalogException;
 
 public class AddCommand implements Command {
     private Document document;
