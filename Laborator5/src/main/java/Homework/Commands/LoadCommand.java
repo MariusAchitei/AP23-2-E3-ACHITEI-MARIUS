@@ -1,6 +1,7 @@
 package Homework.Commands;
 
 import Homework.Catalog;
+import Homework.InvalidCatalogException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
@@ -13,10 +14,14 @@ public class LoadCommand implements Command {
         this.path = path;
     }
 
-    public void execute(Catalog catalog) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        catalog = objectMapper.readValue(
-                new File(path),
-                Catalog.class);
+    public void execute(Catalog catalog) throws InvalidCatalogException {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            catalog = objectMapper.readValue(
+                    new File(path),
+                    Catalog.class);
+        } catch (Exception e) {
+            throw new InvalidCatalogException("NU A MERS COMANDA VERIC\n", e);
+        }
     }
 }

@@ -48,8 +48,12 @@ public class Catalog implements Serializable {
         documents.add(document);
     }
 
-    public void execute(Command command) throws IOException {
-        command.execute(this);
+    public void execute(Command command) {
+        try {
+            command.execute(this);
+        } catch (InvalidCatalogException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 //    public void execute(Command command, String path) {
