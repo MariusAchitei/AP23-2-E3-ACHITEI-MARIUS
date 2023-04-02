@@ -1,12 +1,14 @@
 package compulsory;
 
 import javax.swing.*;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
 
 public class ConfigPanel extends JPanel {
     final MainFrame frame;
     JLabel dotsLabel, linesLabel;
     JSpinner dotsSpinner, linesSpinner;
-    JComboBox linesCombo;
+    JComboBox lineProbabilityCombo;
     JButton createButton;
 
     public ConfigPanel(MainFrame frame) {
@@ -16,18 +18,25 @@ public class ConfigPanel extends JPanel {
 
     private void init() {
         //create the label and the spinner
+        createButton = new JButton("Create game");
         linesLabel = new JLabel("Number of lines");
         dotsLabel = new JLabel("Number of dots:");
-        linesCombo = new JComboBox();
+
+        String[] probabilities = new String[]{"0.2", "0.3", "0.5", "0.6", "0.7", "0.8", "0.9", "1"};
+
+
+        lineProbabilityCombo = new JComboBox(probabilities);
         dotsSpinner = new JSpinner(new SpinnerNumberModel(6, 3, 100, 1));
-        linesSpinner = new JSpinner(new SpinnerNumberModel(6, 3, 100, 1));
+//        linesSpinner = new JSpinner(new SpinnerNumberModel(6, 3, 100, 1));
 
         //create the rest of the components
 // ...TODO
         add(dotsLabel); //JPanel uses FlowLayout by default
         add(dotsSpinner);
         add(linesLabel);
-        add(linesSpinner);
+//        add(linesSpinner);
+        add(lineProbabilityCombo);
+        add(createButton);
 // ...TODO
     }
 }
