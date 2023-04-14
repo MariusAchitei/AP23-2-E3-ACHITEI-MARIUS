@@ -3,6 +3,7 @@ package compulsory;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class ControlPanel extends JPanel {
     final MainFrame frame;
@@ -21,14 +22,24 @@ public class ControlPanel extends JPanel {
         setLayout(new GridLayout(1, 4));
 
         exitBtn.addActionListener(this::exitGame);
+        saveBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.saveGame();
+            }
+        });
+        loadBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.loadGame();
+            }
+        });
         add(exitBtn);
         add(loadBtn);
         add(saveBtn);
-// ...TODO
     }
 
     private void exitGame(ActionEvent e) {
         frame.dispose();
     }
-// ...TODO
 }

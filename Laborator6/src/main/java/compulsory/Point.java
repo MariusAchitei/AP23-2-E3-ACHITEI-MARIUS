@@ -1,9 +1,10 @@
 package compulsory;
 
+import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Point {
+public class Point implements Serializable {
     public int x;
     public int y;
 

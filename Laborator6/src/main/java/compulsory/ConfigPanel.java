@@ -41,23 +41,10 @@ public class ConfigPanel extends JPanel {
     }
 
     public void createGameAction() {
-//        DrawingPanel newPanel = new DrawingPanel(this.frame);
-//        var numVertices = (Integer) dotsSpinner.getValue();
-//        var probability = (Double) lineProbabilityCombo.getSelectedItem();
-//        var numEdges = (int) (probability * numVertices * (numVertices - 1) / 2);
-//        newPanel.update(numVertices, numEdges);
         int numVertices = (int) dotsSpinner.getValue();
         var probability = (Double) lineProbabilityCombo.getSelectedItem();
         int numEdges = (int) (probability * numVertices * (numVertices - 1) / 2);
-        DrawingPanel newPanel = new DrawingPanel(this.frame, numVertices, numEdges);
-        newPanel.update(numEdges, numVertices);
 
-        frame.remove(frame.canvas);
-        frame.canvas = newPanel;
-        frame.add(newPanel, BorderLayout.CENTER);
-        frame.revalidate();
-        frame.canvas.removeAll();
-
-
+        frame.createGame(numVertices, numEdges);
     }
 }

@@ -1,20 +1,25 @@
 package compulsory;
 
 import java.awt.*;
+import java.io.Serializable;
 
-public class Line {
+public class Line implements Serializable {
     public Point point1;
     public Point point2;
-    public boolean colored;
+    public int colored;
     public Color color;
 
     public Line(Point point1, Point point2) {
         this.point1 = point1;
         this.point2 = point2;
-        this.colored = false;
+        this.colored = 0;
         this.color = Color.GRAY;
         point1.add(point2);
         point2.add(point1);
+    }
+
+    public void setColored(int player) {
+        this.colored = player;
     }
 
     public Point getPoint1() {
@@ -33,13 +38,6 @@ public class Line {
         this.point2 = point2;
     }
 
-    public boolean isColored() {
-        return colored;
-    }
-
-    public void setColored(boolean colored) {
-        this.colored = colored;
-    }
 
     public Color getColor() {
         return color;

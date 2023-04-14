@@ -1,7 +1,11 @@
 package compulsory;
 
+import java.awt.*;
+
 public class Game {
+    private MainFrame frame;
+
     public void init() {
-        new MainFrame().setVisible(true);
+        new MainFrame(this).setVisible(true);
     }
 }
