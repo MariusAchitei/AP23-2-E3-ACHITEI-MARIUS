@@ -11,6 +11,9 @@ public class MainFrame extends JFrame {
     ControlPanel controlPanel;
     DrawingPanel canvas;
 
+    private int numVertices;
+    private int numEdges;
+
     public MainFrame() {
         super("My Drawing Application");
         init();

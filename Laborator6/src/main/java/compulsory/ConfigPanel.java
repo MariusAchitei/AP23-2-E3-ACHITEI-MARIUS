@@ -1,6 +1,7 @@
 package compulsory;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
@@ -22,21 +23,41 @@ public class ConfigPanel extends JPanel {
         linesLabel = new JLabel("Number of lines");
         dotsLabel = new JLabel("Number of dots:");
 
-        String[] probabilities = new String[]{"0.2", "0.3", "0.5", "0.6", "0.7", "0.8", "0.9", "1"};
+//        String[] probabilities = new String[]{"0.2", "0.3", "0.5", "0.6", "0.7", "0.8", "0.9", "1"};
+        Double[] probabilities = new Double[]{0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.};
 
 
-        lineProbabilityCombo = new JComboBox(probabilities);
+        lineProbabilityCombo = new JComboBox<Double>(probabilities);
+
         dotsSpinner = new JSpinner(new SpinnerNumberModel(6, 3, 100, 1));
-//        linesSpinner = new JSpinner(new SpinnerNumberModel(6, 3, 100, 1));
 
-        //create the rest of the components
-// ...TODO
-        add(dotsLabel); //JPanel uses FlowLayout by default
+        createButton.addActionListener(e -> createGameAction());
+
+        add(dotsLabel);
         add(dotsSpinner);
         add(linesLabel);
-//        add(linesSpinner);
         add(lineProbabilityCombo);
         add(createButton);
-// ...TODO
+    }
+
+    public void createGameAction() {
+//        DrawingPanel newPanel = new DrawingPanel(this.frame);
+//        var numVertices = (Integer) dotsSpinner.getValue();
+//        var probability = (Double) lineProbabilityCombo.getSelectedItem();
+//        var numEdges = (int) (probability * numVertices * (numVertices - 1) / 2);
+//        newPanel.update(numVertices, numEdges);
+        int numVertices = (int) dotsSpinner.getValue();
+        var probability = (Double) lineProbabilityCombo.getSelectedItem();
+        int numEdges = (int) (probability * numVertices * (numVertices - 1) / 2);
+        DrawingPanel newPanel = new DrawingPanel(this.frame, numVertices, numEdges);
+        newPanel.update(numEdges, numVertices);
+
+        frame.remove(frame.canvas);
+        frame.canvas = newPanel;
+        frame.add(newPanel, BorderLayout.CENTER);
+        frame.revalidate();
+        frame.canvas.removeAll();
+
+
     }
 }
