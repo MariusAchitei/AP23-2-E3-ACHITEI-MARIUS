@@ -1,0 +1,7 @@
+
+^
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ïõ†¢
+Q	java:S125#"<This block of commented-out lines of code should be removed.(ÅÃ“
+\
+java:S1075$"ARefactor your code to get this URI from a customizable parameter.(Ì¦¼Úøÿÿÿÿ
+V	java:S125&"<This block of commented-out lines of code should be removed.(‘Ö¶õûÿÿÿÿ

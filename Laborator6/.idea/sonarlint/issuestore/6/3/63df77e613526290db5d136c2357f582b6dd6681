@@ -1,0 +1,16 @@
+
+<
+java:S1659"Declare "H" on a separate line.(ûˆÏè8›¬±ø0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ûˆÏè8¬±ø0
+X	java:S125"<This block of commented-out lines of code should be removed.(è• “8æÂÕø0
+X	java:S125@"<This block of commented-out lines of code should be removed.(‚Ëæã8é“Îø0
+]	java:S125G"<This block of commented-out lines of code should be removed.(‹Ø…ëùÿÿÿÿ8ðºÎø0
+X	java:S125g"<This block of commented-out lines of code should be removed.(‰²ÔÙ8¨¬±ø0
+O
+java:S1128
+"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8óºÎø0
+L
+java:S1068"/Remove this unused "numVertices" private field.(’¹ãß8óºÎø0
+N
+java:S1068",Remove this unused "numEdges" private field.(“ƒ¯Ãøÿÿÿÿ8óºÎø0

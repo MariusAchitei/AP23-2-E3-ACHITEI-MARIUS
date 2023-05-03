@@ -5,72 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e176fa-3552-4b0a-8abb-4ce61fea7154" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04ddd565d5c4c761e995d1f43d48b7ce5ef90b65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09e7aba95c0bb4fd1b783f48052f149f1cf1183a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6249bf79d187938277039ffe43bd49f0191d7fd9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67c296086c1a36f6400dd78a695370ea51a393d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2f1a8146a2e43b0cf192e7eddb373c3485a147e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e49951a9d2aa7f5bbbde981cd794b0cdb0a2b93e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e52c0272226f66472f31bd15ce898ad1e0e2806a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eab87af197e18de825e02d44fd57852cd6345aef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/04ddd565d5c4c761e995d1f43d48b7ce5ef90b65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/9/09e7aba95c0bb4fd1b783f48052f149f1cf1183a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/6249bf79d187938277039ffe43bd49f0191d7fd9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/7/67c296086c1a36f6400dd78a695370ea51a393d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a2f1a8146a2e43b0cf192e7eddb373c3485a147e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e49951a9d2aa7f5bbbde981cd794b0cdb0a2b93e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e52c0272226f66472f31bd15ce898ad1e0e2806a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/eab87af197e18de825e02d44fd57852cd6345aef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/target/Compulsory-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/target/classes/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Compulsory/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/issuestore/6/7/67fd9f3b920d3001347bca8b99fe54274e70b46f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/issuestore/9/0/902e1b78136f9e10f3397edbc5b0122bba88359b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/issuestore/d/1/d1ff0a1011679f3f43321d56534e3910c9203d27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/issuestore/d/5/d5f29dc8a13fd0dcf114776d34c33fb8f04f9b4e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/securityhotspotstore/6/7/67fd9f3b920d3001347bca8b99fe54274e70b46f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/securityhotspotstore/9/0/902e1b78136f9e10f3397edbc5b0122bba88359b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/securityhotspotstore/d/1/d1ff0a1011679f3f43321d56534e3910c9203d27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/securityhotspotstore/d/5/d5f29dc8a13fd0dcf114776d34c33fb8f04f9b4e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/src/main/java/org/example/Compulsory/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/src/main/java/org/example/Compulsory/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/src/main/java/org/example/Compulsory/Project.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/src/main/java/org/example/Compulsory/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/target/Cscds-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator4/Cscds/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +48,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/.facultate/.Lab-Java/Laborator3/bonus&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -135,6 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678959331201</updated>
+      <workItem from="1682610727859" duration="4000" />
     </task>
     <servers />
   </component>

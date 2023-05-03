@@ -1,0 +1,14 @@
+
+o
+java:S1104"RMake point1 a static final constant or non-public and provide accessors if needed.(Ö¡İí8±Çîø0
+t
+java:S1104"RMake point2 a static final constant or non-public and provide accessors if needed.(¸ã©şÿÿÿÿ8±Çîø0
+u
+java:S1104	"SMake colored a static final constant or non-public and provide accessors if needed.(›Ä¶úÿÿÿÿ8±Çîø0
+n
+java:S1104
+"QMake color a static final constant or non-public and provide accessors if needed.(ê·®©8±Çîø0
+E
+java:S1948"(Make "point1" transient or serializable.(Ö¡İí8§ùì‚ø0
+J
+java:S1948"(Make "point2" transient or serializable.(¸ã©şÿÿÿÿ8§ùì‚ø0
