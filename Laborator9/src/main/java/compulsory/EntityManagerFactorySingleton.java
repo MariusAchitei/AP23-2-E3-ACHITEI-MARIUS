@@ -1,4 +1,4 @@
-package com.example.homework.singleton;
+package compulsory;
 
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
@@ -7,7 +7,8 @@ public class EntityManagerFactorySingleton {
     private static final String PERSISTENCE_UNIT_NAME = "MusicAlbumsPU";
     private static EntityManagerFactory emf;
 
-    private EntityManagerFactorySingleton() {}
+    private EntityManagerFactorySingleton() {
+    }
 
     public static EntityManagerFactory getInstance() {
         if (emf == null) {
@@ -15,8 +16,8 @@ public class EntityManagerFactorySingleton {
         }
         return emf;
     }
-    private static void createEntityManagerFactory ()
-    {
+
+    private static void createEntityManagerFactory() {
         emf = Persistence.createEntityManagerFactory("MusicAlbumsPU");
     }
 
