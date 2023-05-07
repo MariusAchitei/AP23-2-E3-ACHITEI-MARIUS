@@ -6,6 +6,8 @@ import compulsory.entity.Genre;
 import compulsory.repository.AlbumRepository;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+import org.eclipse.persistence.jpa.PersistenceProvider;
+
 
 import java.util.List;
 
@@ -15,6 +17,7 @@ public class Main {
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("MusicAlbumsPU");
         AlbumRepository albumRepository = new AlbumRepository((javax.persistence.EntityManagerFactory) emf);
+
 
         Artist artist1 = new Artist("The Beatles");
         Album album1 = new Album("Abbey Road", artist1, 1969);
