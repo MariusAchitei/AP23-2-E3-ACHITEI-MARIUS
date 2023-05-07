@@ -1,0 +1,17 @@
+
+g	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8˜›—°ÿ0
+g	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8˜›—°ÿ0
+g	java:S112}"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8˜›—°ÿ0
+h	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8˜›—°ÿ0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¤Â‰8 ›—°ÿ0
+r	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦•ëùÿÿÿÿ8 ›—°ÿ0
+S
+java:S1481"6Remove this unused "artistsRepository" local variable.(é©‹Ê8†—°ÿ0
+O
+java:S11357"2Complete the task associated to this TODO comment.(…ïœ†8‰—°ÿ0
+I
+java:S1125Q"'Remove the unnecessary boolean literal.(«Ú©ºıÿÿÿÿ8‹—°ÿ0
+L
+java:S2093^"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8—°ÿ0
+E
+java:S1125•"'Remove the unnecessary boolean literal.(Çß‘8—°ÿ0

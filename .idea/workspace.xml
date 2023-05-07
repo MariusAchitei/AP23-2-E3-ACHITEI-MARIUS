@@ -6,8 +6,40 @@
   <component name="ChangeListManager">
     <list default="true" id="b3e176fa-3552-4b0a-8abb-4ce61fea7154" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator6/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/0/7/07cb799b1fcd68c43151c95c4bc4dac6578ce7b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/3/b/3b4bd56198fa23a7745d77216a48530f1fe24561" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/4/8/48e5b364370ebc1431ce85fea7a41db31ea593a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/6/5/65449b1371c19db6ae7dacab1686cb99936ea2e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/8/2/82a813904edc4c046669b945d8b48a48e8052037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/9/9/990c7e3b656220cc9dda754d90c6e5c58be18702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/c/d/cdd556ac8d9eff99112d59d80ce27e7991f14a5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/f/1/f12c0c9090807c26292f5ed9e34f9238fc585213" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/0/7/07cb799b1fcd68c43151c95c4bc4dac6578ce7b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/3/b/3b4bd56198fa23a7745d77216a48530f1fe24561" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/4/8/48e5b364370ebc1431ce85fea7a41db31ea593a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/6/5/65449b1371c19db6ae7dacab1686cb99936ea2e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/8/2/82a813904edc4c046669b945d8b48a48e8052037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/9/9/990c7e3b656220cc9dda754d90c6e5c58be18702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/c/d/cdd556ac8d9eff99112d59d80ce27e7991f14a5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/f/1/f12c0c9090807c26292f5ed9e34f9238fc585213" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/AlbumDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/AlbumDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/ArtistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/ArtistDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/GenreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/GenreDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/models/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/models/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/models/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/models/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/models/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/src/main/java/compulsory/models/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/AlbumDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/ArtistDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/GenreDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/models/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/models/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/models/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/models/Artist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/models/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/Laborator8/target/classes/compulsory/models/Genre.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

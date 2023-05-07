@@ -1,19 +1,19 @@
 
-[
-+src/main/java/compulsory/models/Artist.java,6\5\65449b1371c19db6ae7dacab1686cb99936ea2e2
-V
-&src/main/java/compulsory/GenreDAO.java,3\b\3b4bd56198fa23a7745d77216a48530f1fe24561
-Z
-*src/main/java/compulsory/models/Genre.java,f\1\f12c0c9090807c26292f5ed9e34f9238fc585213
-W
-'src/main/java/compulsory/ArtistDAO.java,8\2\82a813904edc4c046669b945d8b48a48e8052037
-V
-&src/main/java/compulsory/Database.java,0\7\07cb799b1fcd68c43151c95c4bc4dac6578ce7b7
+h
+8src/main/java/homework/repositories/GenreRepository.java,6\8\682f32083d3448e59785e1275477aae1791bd773
+Y
+)src/main/java/homework/models/Artist.java,a\a\aae55f7f4827ccb0eea743bc4390cca24ed86153
+X
+(src/main/java/homework/models/Genre.java,d\b\dba06827cb6116f10514b2900d9fc32e8e5b0262
+i
+9src/main/java/homework/repositories/ArtistRepository.java,6\0\60811227f71b7a4bacaf422cf579d017127112c8
+T
+$src/main/java/homework/Database.java,1\3\13d4afd57ea2cc355c093aff358d1bf8636848e8
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-R
-"src/main/java/compulsory/Main.java,9\9\990c7e3b656220cc9dda754d90c6e5c58be18702
-Z
-*src/main/java/compulsory/models/Album.java,c\d\cdd556ac8d9eff99112d59d80ce27e7991f14a5a
-V
-&src/main/java/compulsory/AlbumDAO.java,4\8\48e5b364370ebc1431ce85fea7a41db31ea593a1
+X
+(src/main/java/homework/models/Album.java,e\3\e3ac6844296f3d0bf62858e4daf5d75d2271184d
+h
+8src/main/java/homework/repositories/AlbumRepository.java,9\3\93dd001f0264aefaec2b0320158f83b0cb2158d0
+P
+ src/main/java/homework/Main.java,c\d\cdd4c07b3d6df682ed8c8b1608177ef782fbc6d3
