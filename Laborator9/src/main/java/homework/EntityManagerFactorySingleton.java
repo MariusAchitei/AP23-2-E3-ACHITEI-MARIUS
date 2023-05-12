@@ -1,11 +1,11 @@
-package compulsory;
+package homework;
 
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
 public class EntityManagerFactorySingleton {
     private static final String PERSISTENCE_UNIT_NAME = "MusicAlbumsPU";
-    private static EntityManagerFactory emf= null;
+    private static EntityManagerFactory emf;
 
     private EntityManagerFactorySingleton() {
     }
