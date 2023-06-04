@@ -1,6 +1,7 @@
 package com.example.homework.controller;
 import com.example.homework.Game;
 import com.example.homework.GameRepository;
+import com.example.homework.Player;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,5 +21,13 @@ public class GameController {
     public List<Game> getAllGames() {
         return gameRepository.findAll();
     }
+
+    @PostMapping("/games")
+    public Game addGame (@RequestBody Game newGame){
+        return gameRepository.save(newGame);
+    }
+
+
+
 
 }

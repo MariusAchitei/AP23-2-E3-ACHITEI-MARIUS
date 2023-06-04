@@ -12,13 +12,18 @@ public class Application {
        RestTemplate restTemplate = new RestTemplate();
         // Add a new player
         Player newPlayer = new Player();
-        newPlayer.setName("Maria");
+        newPlayer.setName("Marius");
         Player addedPlayer = restTemplate.postForObject("http://localhost:8090/api/players", newPlayer, Player.class);
         System.out.println("Added Player: " + addedPlayer);
 
+        Player newPlayer2 = new Player();
+        newPlayer2.setName("Mihai");
+        Player addedPlayer2 = restTemplate.postForObject("http://localhost:8090/api/players", newPlayer2, Player.class);
+        System.out.println("Added Player: " + addedPlayer2);
+
         // Update player's name
         Long playerId = 1L;
-        String updatedName = "Constantin";
+        String updatedName = "Razvan";
         Player updatedPlayer = new Player();
         updatedPlayer.setName(updatedName);
         restTemplate.put("http://localhost:8090/api/players/" + playerId, updatedPlayer);

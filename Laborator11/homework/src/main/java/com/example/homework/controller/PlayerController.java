@@ -31,18 +31,18 @@ public class PlayerController {
     }
     // update name
     @PutMapping("/players/{id}")
-    Player updatePlayer(@PathVariable Long id, @RequestParam String name) {
-
+    Player updatePlayer(@PathVariable Long id, @RequestBody Player updatedPlayer) {
+        System.out.printf("++++++++++++[ " + updatedPlayer.getName() + "]+++++++++++");
         return playerRepository.findById(id)
                 .map(player -> {
-                    player.setName(name);
+                    player.setName(updatedPlayer.getName());
                     return playerRepository.save(player);
                 })
                 .orElseThrow(() -> new EntityNotFoundException("Player not found with id: " + id));
     }
 
     // delete
-    @DeleteMapping("/player/{id}")
+    @DeleteMapping("/players/{id}")
     void deletePlayer(@PathVariable Long id) {
         playerRepository.deleteById(id);
     }

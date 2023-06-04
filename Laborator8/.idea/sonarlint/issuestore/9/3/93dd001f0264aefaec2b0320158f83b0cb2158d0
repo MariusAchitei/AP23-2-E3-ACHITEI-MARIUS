@@ -1,17 +1,17 @@
 
-g	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ8òõó∞ˇ0
-g	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ8òõó∞ˇ0
-g	java:S112}"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ8òõó∞ˇ0
-h	java:S112ö"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ8òõó∞ˇ0
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø§¬â8†õó∞ˇ0
-r	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ïÎç˘ˇˇˇˇ8†õó∞ˇ0
-S
-java:S1481"6Remove this unused "artistsRepository" local variable.(È©ã 8Üùó∞ˇ0
-O
-java:S11357"2Complete the task associated to this TODO comment.(ÖÔúÜ8âùó∞ˇ0
-I
-java:S1125Q"'Remove the unnecessary boolean literal.(´⁄©∫˝ˇˇˇˇ8ãùó∞ˇ0
+`	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ
+`	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ
+`	java:S112}"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ
+a	java:S112ö"FDefine and throw a dedicated exception instead of using a generic one.(“Ç“È¸ˇˇˇˇ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø§¬â
+k	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ïÎç˘ˇˇˇˇ
 L
-java:S2093^"*Change this "try" to a try-with-resources.(°ª¢¸˘ˇˇˇˇ8èùó∞ˇ0
+java:S1481"6Remove this unused "artistsRepository" local variable.(È©ã 
+H
+java:S11357"2Complete the task associated to this TODO comment.(ÖÔúÜ
+B
+java:S1125Q"'Remove the unnecessary boolean literal.(´⁄©∫˝ˇˇˇˇ
 E
-java:S1125ï"'Remove the unnecessary boolean literal.(«çﬂë8êùó∞ˇ0
+java:S2093^"*Change this "try" to a try-with-resources.(°ª¢¸˘ˇˇˇˇ
+>
+java:S1125ï"'Remove the unnecessary boolean literal.(«çﬂë
